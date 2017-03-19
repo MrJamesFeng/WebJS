@@ -16,6 +16,26 @@
 		0B0259D41E7E330F00247B9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0259D21E7E330F00247B9C /* LaunchScreen.storyboard */; };
 		0B0259DF1E7E330F00247B9C /* webViewJsHtmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0259DE1E7E330F00247B9C /* webViewJsHtmlTests.m */; };
 		0B0259EA1E7E330F00247B9C /* webViewJsHtmlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0259E91E7E330F00247B9C /* webViewJsHtmlUITests.m */; };
+		0BB3ED291E7E461000BF74CE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED041E7E461000BF74CE /* .gitignore */; };
+		0BB3ED2A1E7E461000BF74CE /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED061E7E461000BF74CE /* AppController.m */; };
+		0BB3ED2B1E7E461000BF74CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED081E7E461000BF74CE /* InfoPlist.strings */; };
+		0BB3ED2C1E7E461000BF74CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED0A1E7E461000BF74CE /* MainMenu.xib */; };
+		0BB3ED2D1E7E461000BF74CE /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED0D1E7E461000BF74CE /* ICUTemplateMatcher.m */; };
+		0BB3ED2E1E7E461000BF74CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED0E1E7E461000BF74CE /* Info.plist */; };
+		0BB3ED2F1E7E461000BF74CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED0F1E7E461000BF74CE /* main.m */; };
+		0BB3ED301E7E461000BF74CE /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED111E7E461000BF74CE /* MGTemplateEngine.m */; };
+		0BB3ED311E7E461000BF74CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED171E7E461000BF74CE /* Info.plist */; };
+		0BB3ED321E7E461000BF74CE /* MGTemplateEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED181E7E461000BF74CE /* MGTemplateEngineTests.m */; };
+		0BB3ED331E7E461000BF74CE /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED1C1E7E461000BF74CE /* MGTemplateStandardFilters.m */; };
+		0BB3ED341E7E461000BF74CE /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED1E1E7E461000BF74CE /* MGTemplateStandardMarkers.m */; };
+		0BB3ED351E7E461000BF74CE /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED201E7E461000BF74CE /* NSArray_DeepMutableCopy.m */; };
+		0BB3ED361E7E461000BF74CE /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED221E7E461000BF74CE /* NSDictionary_DeepMutableCopy.m */; };
+		0BB3ED371E7E461000BF74CE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED231E7E461000BF74CE /* README.md */; };
+		0BB3ED381E7E461000BF74CE /* sample_template.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED241E7E461000BF74CE /* sample_template.txt */; };
+		0BB3ED391E7E461000BF74CE /* Source Code License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0BB3ED251E7E461000BF74CE /* Source Code License.rtf */; };
+		0BB3ED3A1E7E461000BF74CE /* Writing Filters.md in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED261E7E461000BF74CE /* Writing Filters.md */; };
+		0BB3ED3B1E7E461000BF74CE /* Writing Markers.md in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED271E7E461000BF74CE /* Writing Markers.md */; };
+		0BB3ED3C1E7E461000BF74CE /* Writing Matchers.md in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3ED281E7E461000BF74CE /* Writing Matchers.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +52,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0B0259BD1E7E330F00247B9C;
 			remoteInfo = webViewJsHtml;
+		};
+		0BB3ED3F1E7E461000BF74CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB3ED121E7E461000BF74CE /* MGTemplateEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = MGTemplateEngine;
+		};
+		0BB3ED411E7E461000BF74CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BB3ED121E7E461000BF74CE /* MGTemplateEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3E3724AD1CCD54D5005628DF;
+			remoteInfo = MGTemplateEngineTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +87,38 @@
 		0B0259E51E7E330F00247B9C /* webViewJsHtmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewJsHtmlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0259E91E7E330F00247B9C /* webViewJsHtmlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewJsHtmlUITests.m; sourceTree = "<group>"; };
 		0B0259EB1E7E330F00247B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB3ED041E7E461000BF74CE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0BB3ED051E7E461000BF74CE /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		0BB3ED061E7E461000BF74CE /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		0BB3ED071E7E461000BF74CE /* DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepMutableCopy.h; sourceTree = "<group>"; };
+		0BB3ED091E7E461000BF74CE /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BB3ED0B1E7E461000BF74CE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BB3ED0C1E7E461000BF74CE /* ICUTemplateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICUTemplateMatcher.h; sourceTree = "<group>"; };
+		0BB3ED0D1E7E461000BF74CE /* ICUTemplateMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICUTemplateMatcher.m; sourceTree = "<group>"; };
+		0BB3ED0E1E7E461000BF74CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB3ED0F1E7E461000BF74CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BB3ED101E7E461000BF74CE /* MGTemplateEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngine.h; sourceTree = "<group>"; };
+		0BB3ED111E7E461000BF74CE /* MGTemplateEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateEngine.m; sourceTree = "<group>"; };
+		0BB3ED121E7E461000BF74CE /* MGTemplateEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MGTemplateEngine.xcodeproj; sourceTree = "<group>"; };
+		0BB3ED151E7E461000BF74CE /* MGTemplateEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngine_Prefix.pch; sourceTree = "<group>"; };
+		0BB3ED171E7E461000BF74CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB3ED181E7E461000BF74CE /* MGTemplateEngineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateEngineTests.m; sourceTree = "<group>"; };
+		0BB3ED191E7E461000BF74CE /* MGTemplateFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateFilter.h; sourceTree = "<group>"; };
+		0BB3ED1A1E7E461000BF74CE /* MGTemplateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateMarker.h; sourceTree = "<group>"; };
+		0BB3ED1B1E7E461000BF74CE /* MGTemplateStandardFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateStandardFilters.h; sourceTree = "<group>"; };
+		0BB3ED1C1E7E461000BF74CE /* MGTemplateStandardFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateStandardFilters.m; sourceTree = "<group>"; };
+		0BB3ED1D1E7E461000BF74CE /* MGTemplateStandardMarkers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateStandardMarkers.h; sourceTree = "<group>"; };
+		0BB3ED1E1E7E461000BF74CE /* MGTemplateStandardMarkers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateStandardMarkers.m; sourceTree = "<group>"; };
+		0BB3ED1F1E7E461000BF74CE /* NSArray_DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_DeepMutableCopy.h; sourceTree = "<group>"; };
+		0BB3ED201E7E461000BF74CE /* NSArray_DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_DeepMutableCopy.m; sourceTree = "<group>"; };
+		0BB3ED211E7E461000BF74CE /* NSDictionary_DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_DeepMutableCopy.h; sourceTree = "<group>"; };
+		0BB3ED221E7E461000BF74CE /* NSDictionary_DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_DeepMutableCopy.m; sourceTree = "<group>"; };
+		0BB3ED231E7E461000BF74CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0BB3ED241E7E461000BF74CE /* sample_template.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_template.txt; sourceTree = "<group>"; };
+		0BB3ED251E7E461000BF74CE /* Source Code License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
+		0BB3ED261E7E461000BF74CE /* Writing Filters.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Writing Filters.md"; sourceTree = "<group>"; };
+		0BB3ED271E7E461000BF74CE /* Writing Markers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Writing Markers.md"; sourceTree = "<group>"; };
+		0BB3ED281E7E461000BF74CE /* Writing Matchers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Writing Matchers.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +169,7 @@
 		0B0259C01E7E330F00247B9C /* webViewJsHtml */ = {
 			isa = PBXGroup;
 			children = (
+				0BB3ED021E7E461000BF74CE /* libs */,
 				0B0259C41E7E330F00247B9C /* AppDelegate.h */,
 				0B0259C51E7E330F00247B9C /* AppDelegate.m */,
 				0B0259C71E7E330F00247B9C /* ViewController.h */,
@@ -141,6 +208,70 @@
 				0B0259EB1E7E330F00247B9C /* Info.plist */,
 			);
 			path = webViewJsHtmlUITests;
+			sourceTree = "<group>";
+		};
+		0BB3ED021E7E461000BF74CE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3ED031E7E461000BF74CE /* MGTemplateEngine */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		0BB3ED031E7E461000BF74CE /* MGTemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3ED041E7E461000BF74CE /* .gitignore */,
+				0BB3ED051E7E461000BF74CE /* AppController.h */,
+				0BB3ED061E7E461000BF74CE /* AppController.m */,
+				0BB3ED071E7E461000BF74CE /* DeepMutableCopy.h */,
+				0BB3ED081E7E461000BF74CE /* InfoPlist.strings */,
+				0BB3ED0A1E7E461000BF74CE /* MainMenu.xib */,
+				0BB3ED0C1E7E461000BF74CE /* ICUTemplateMatcher.h */,
+				0BB3ED0D1E7E461000BF74CE /* ICUTemplateMatcher.m */,
+				0BB3ED0E1E7E461000BF74CE /* Info.plist */,
+				0BB3ED0F1E7E461000BF74CE /* main.m */,
+				0BB3ED101E7E461000BF74CE /* MGTemplateEngine.h */,
+				0BB3ED111E7E461000BF74CE /* MGTemplateEngine.m */,
+				0BB3ED121E7E461000BF74CE /* MGTemplateEngine.xcodeproj */,
+				0BB3ED151E7E461000BF74CE /* MGTemplateEngine_Prefix.pch */,
+				0BB3ED161E7E461000BF74CE /* MGTemplateEngineTests */,
+				0BB3ED191E7E461000BF74CE /* MGTemplateFilter.h */,
+				0BB3ED1A1E7E461000BF74CE /* MGTemplateMarker.h */,
+				0BB3ED1B1E7E461000BF74CE /* MGTemplateStandardFilters.h */,
+				0BB3ED1C1E7E461000BF74CE /* MGTemplateStandardFilters.m */,
+				0BB3ED1D1E7E461000BF74CE /* MGTemplateStandardMarkers.h */,
+				0BB3ED1E1E7E461000BF74CE /* MGTemplateStandardMarkers.m */,
+				0BB3ED1F1E7E461000BF74CE /* NSArray_DeepMutableCopy.h */,
+				0BB3ED201E7E461000BF74CE /* NSArray_DeepMutableCopy.m */,
+				0BB3ED211E7E461000BF74CE /* NSDictionary_DeepMutableCopy.h */,
+				0BB3ED221E7E461000BF74CE /* NSDictionary_DeepMutableCopy.m */,
+				0BB3ED231E7E461000BF74CE /* README.md */,
+				0BB3ED241E7E461000BF74CE /* sample_template.txt */,
+				0BB3ED251E7E461000BF74CE /* Source Code License.rtf */,
+				0BB3ED261E7E461000BF74CE /* Writing Filters.md */,
+				0BB3ED271E7E461000BF74CE /* Writing Markers.md */,
+				0BB3ED281E7E461000BF74CE /* Writing Matchers.md */,
+			);
+			path = MGTemplateEngine;
+			sourceTree = "<group>";
+		};
+		0BB3ED131E7E461000BF74CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3ED401E7E461000BF74CE /* MGTemplateEngine.app */,
+				0BB3ED421E7E461000BF74CE /* MGTemplateEngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB3ED161E7E461000BF74CE /* MGTemplateEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3ED171E7E461000BF74CE /* Info.plist */,
+				0BB3ED181E7E461000BF74CE /* MGTemplateEngineTests.m */,
+			);
+			path = MGTemplateEngineTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +341,7 @@
 				TargetAttributes = {
 					0B0259BD1E7E330F00247B9C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ELYXV54F6A;
+						DevelopmentTeam = 2PG34PH6C8;
 						ProvisioningStyle = Automatic;
 					};
 					0B0259D91E7E330F00247B9C = {
@@ -234,10 +365,17 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = 0B0259B51E7E330F00247B9C;
 			productRefGroup = 0B0259BF1E7E330F00247B9C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0BB3ED131E7E461000BF74CE /* Products */;
+					ProjectRef = 0BB3ED121E7E461000BF74CE /* MGTemplateEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0B0259BD1E7E330F00247B9C /* webViewJsHtml */,
@@ -247,14 +385,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0BB3ED401E7E461000BF74CE /* MGTemplateEngine.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MGTemplateEngine.app;
+			remoteRef = 0BB3ED3F1E7E461000BF74CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0BB3ED421E7E461000BF74CE /* MGTemplateEngineTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MGTemplateEngineTests.xctest;
+			remoteRef = 0BB3ED411E7E461000BF74CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0B0259BC1E7E330F00247B9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB3ED311E7E461000BF74CE /* Info.plist in Resources */,
+				0BB3ED291E7E461000BF74CE /* .gitignore in Resources */,
 				0B0259D41E7E330F00247B9C /* LaunchScreen.storyboard in Resources */,
 				0B0259D11E7E330F00247B9C /* Assets.xcassets in Resources */,
 				0B0259CC1E7E330F00247B9C /* Main.storyboard in Resources */,
+				0BB3ED381E7E461000BF74CE /* sample_template.txt in Resources */,
+				0BB3ED2B1E7E461000BF74CE /* InfoPlist.strings in Resources */,
+				0BB3ED2C1E7E461000BF74CE /* MainMenu.xib in Resources */,
+				0BB3ED391E7E461000BF74CE /* Source Code License.rtf in Resources */,
+				0BB3ED2E1E7E461000BF74CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +441,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB3ED3C1E7E461000BF74CE /* Writing Matchers.md in Sources */,
+				0BB3ED2D1E7E461000BF74CE /* ICUTemplateMatcher.m in Sources */,
 				0B0259C91E7E330F00247B9C /* ViewController.m in Sources */,
+				0BB3ED361E7E461000BF74CE /* NSDictionary_DeepMutableCopy.m in Sources */,
 				0B0259CF1E7E330F00247B9C /* webViewJsHtml.xcdatamodeld in Sources */,
+				0BB3ED301E7E461000BF74CE /* MGTemplateEngine.m in Sources */,
 				0B0259C61E7E330F00247B9C /* AppDelegate.m in Sources */,
+				0BB3ED2A1E7E461000BF74CE /* AppController.m in Sources */,
+				0BB3ED351E7E461000BF74CE /* NSArray_DeepMutableCopy.m in Sources */,
+				0BB3ED2F1E7E461000BF74CE /* main.m in Sources */,
+				0BB3ED321E7E461000BF74CE /* MGTemplateEngineTests.m in Sources */,
+				0BB3ED3B1E7E461000BF74CE /* Writing Markers.md in Sources */,
+				0BB3ED3A1E7E461000BF74CE /* Writing Filters.md in Sources */,
+				0BB3ED371E7E461000BF74CE /* README.md in Sources */,
+				0BB3ED341E7E461000BF74CE /* MGTemplateStandardMarkers.m in Sources */,
+				0BB3ED331E7E461000BF74CE /* MGTemplateStandardFilters.m in Sources */,
 				0B0259C31E7E330F00247B9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +507,22 @@
 				0B0259D31E7E330F00247B9C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0BB3ED081E7E461000BF74CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB3ED091E7E461000BF74CE /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BB3ED0A1E7E461000BF74CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB3ED0B1E7E461000BF74CE /* English */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,10 +622,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ELYXV54F6A;
+				DEVELOPMENT_TEAM = 2PG34PH6C8;
 				INFOPLIST_FILE = webViewJsHtml/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fengjing.webViewJsHtml;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QianHaiLDY.zucheStaff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,10 +634,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ELYXV54F6A;
+				DEVELOPMENT_TEAM = 2PG34PH6C8;
 				INFOPLIST_FILE = webViewJsHtml/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fengjing.webViewJsHtml;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QianHaiLDY.zucheStaff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -520,6 +711,7 @@
 				0B0259F01E7E330F00247B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B0259F11E7E330F00247B9C /* Build configuration list for PBXNativeTarget "webViewJsHtmlTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +720,7 @@
 				0B0259F31E7E330F00247B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B0259F41E7E330F00247B9C /* Build configuration list for PBXNativeTarget "webViewJsHtmlUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +729,7 @@
 				0B0259F61E7E330F00247B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -5,12 +5,12 @@
 //  Created by LDY on 17/3/19.
 //  Copyright © 2017年 LDY. All rights reserved.
 //
-
 #import "ViewController.h"
+#import "MGTemplateEngine.h"
 
 @interface ViewController ()<UIWebViewDelegate>
 
-@property(nonatomic,strong)UIWebView *webView;
+@property(nonatomic,strong)UIWebView *mywebView;
 
 @end
 
@@ -19,9 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:_webView];
+    [self.view addSubview:self.mywebView];
     NSURL *url = [NSURL URLWithString:@"www.baidu.com"];
-    [_webView loadHTMLString:[self htmlString:@"<p>内容</p>" title:@"baidu"] baseURL:url];
+    [self.mywebView loadHTMLString:[self htmlString:@"<p>内容</p>" title:@"baidu"] baseURL:url];
     
 }
 #pragma mark- interactive methold
@@ -44,23 +44,25 @@
     return YES;
 }
 -(void)webViewDidStartLoad:(UIWebView *)webView{
+    NSLog(@"StartLoad");
     
 }
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
-    
+    NSLog(@"FinishLoad");
 }
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
-    
+    NSLog(@"%@\n",[error description]);
 }
 
 
 #pragma mark- getter
--(UIWebView *)webView{
-    if (!_webView) {
-        _webView = [[UIWebView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-        _webView.delegate = self;
+-(UIWebView *)mywebView{
+    if (!_mywebView) {
+        _mywebView = [[UIWebView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        _mywebView.backgroundColor = [UIColor lightGrayColor];
+        _mywebView.delegate = self;
     }
-    return _webView;
+    return _mywebView;
 }
 
 - (void)didReceiveMemoryWarning {
