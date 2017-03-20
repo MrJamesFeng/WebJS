@@ -239,10 +239,32 @@
 <!--*/-->
 
 <!DOCTYPE html>
+
 <html lang=\"en\">
     <head>
         <meta charset=\"UTF-8\">
-        <title>%@</title>
+            <title>标题</title>
     </head>
-    <body>%@</body>
+    
+    <script>
+        function loadUR(url) {
+            var iFrame;
+            iFrame = document.createComment("iFrame");
+            iFrame.setAttribute("src",url);
+            iFrame.setAttribute("style","dispaly:none");
+            iFrame.setAttribute("height","0px");
+            iFrame.setAttribute("width","0px");
+            iFrame.setAttribute("frameborder","0");
+            document.body.appendChild(iFrame);
+            iFrame.parentNode.removeChild(iFrame);
+            iFrame = null;
+        }
+    </script>
+    
+    <body>
+        {{name}}
+        <p>{{content}}</p>
+        <p>{{content}}</p>
+        
+    </body>
 </html>
